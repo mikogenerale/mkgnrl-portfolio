@@ -10,7 +10,7 @@ const SkillCard = (prop: SkillCardProp) => {
   return (
     <div
       className="
-      bg-secondary shadow-md text-primary rounded flex flex-col gap-3 items-center justify-center p-8
+      bg-secondary shadow-md text-primary rounded-2xl flex flex-col gap-3 items-center justify-center p-8
       transition duration-300 cursor-pointer hover:-translate-y-1
     ">
       <Image

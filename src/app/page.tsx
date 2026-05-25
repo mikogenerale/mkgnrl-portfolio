@@ -137,11 +137,10 @@ const Page = () => {
               subHeading="My journey through the software engineering and development field."
               isLightMode={true}
             >
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 ">
-                {
-                  experience.map((exp) => <ExperienceCard key={exp.company} data={exp}/>)
-                }
+              <div className="columns-1 md:columns-2 gap-8 space-y-8">
+                {experience.map((exp) => (
+                  <ExperienceCard key={exp.company} data={exp} />
+                ))}
               </div>
             </SectionHeader>
           </Container>
